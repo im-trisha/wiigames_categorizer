@@ -1,0 +1,9 @@
+services:
+  wiigames_categorizer:
+    build:
+      context: .
+      args:
+        - ASSETS_DIR=${ASSETS_DIR}
+    volumes:
+      - ${OUTDIR}:/app/output
+      - ${ASSETS_DIR}:/app/assets

@@ -1,0 +1,6 @@
+*.info
+*.env
+__pycache__/
+*.pyc
+output/*.xml
+
