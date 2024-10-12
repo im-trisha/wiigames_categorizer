@@ -1,4 +1,4 @@
-#### USB Loader GX categorizer
+# USB Loader GX categorizer
 
 ### Index
 - [Installing](#installing)
